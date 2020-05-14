@@ -62,7 +62,7 @@ def fillin_template(template_file, word_table, story_num):
 
 
 log("Welcome to Mad Libs!", t, print2screen=True)
-log("Pick a num [1,2]: ", t, print2screen=True)
+log("Pick a story number: ", t, print2screen=True)
 story_num = int(input())
 
 log("You selected story #" + str(story_num) + ".",t,print2screen=True)
