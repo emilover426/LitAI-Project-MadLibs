@@ -52,7 +52,7 @@ def fillin_template(template_file, word_table, story_num):
                         break
             if temp_k != k:
                 word = word.capitalize()
-            new_line = new_line.replace("("+k+")","("+word+")")
+            new_line = new_line.replace("("+k+")", word)
 
         if new_line != "":
             log(new_line,t,print2screen=True,output_file=str(story_num))
